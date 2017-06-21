@@ -73,7 +73,7 @@ th, td						{color:$black;border-bottom:1px solid #ddd;padding:5px 10px;text-ali
 	header,
 	section,
 	footer					{position:static;width:auto;}
-	section					{border:0;margin:0;padding:2rem 0;}
+	section					{border:0;margin:0;padding:0;}
 	section.main			{margin-top:auto;}
 	.post,.side				{float:none;width:auto;}
 	.logo					{float:none;margin:0;}
@@ -83,7 +83,7 @@ th, td						{color:$black;border-bottom:1px solid #ddd;padding:5px 10px;text-ali
 	header					{padding:0;
 		ul, p.view			{position:static;}}
 	pre, code				{word-wrap:normal;}
-	.logo					{height:auto;width:100%;}
+	.avi,.logo				{height:auto;width:100%;}
 }
 @media print, screen and (max-width: 480px) {
 	body					{padding:0;}
