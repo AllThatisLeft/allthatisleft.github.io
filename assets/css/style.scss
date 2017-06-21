@@ -15,20 +15,21 @@ a small						{color:$red;display:block;font-size:0.7em;margin:0;}
 a:hover small				{color:$black;}
 blockquote					{border-left:2px solid $red;font-style:italic;margin:0;padding:0 0 0 1.5rem;}
 body						{background:#fff;color:$black;font:12pt "Roboto", sans-serif;font-weight:400;padding:0;}
-code, pre					{color:$black;font-family:monospace;font-size:1.3rem;}
+code, pre					{color:$black;font-family:monospace;font-size:1rem;}
 dt							{color:$black;font-weight:700;}
-footer						{bottom:50px;float:left;position:fixed;width:270px;}
+footer						{float:none;position:relative;width:100vw;}
 h1, h2, h3, h4, h5, h6		{color:$black;margin:0 0 1.5rem;}
 h1, h2, h3					{line-height:1.1;}
 h1							{font-size:2em;}
-header						{float:left;position:fixed;width:270px;
+header						{color:$light;float:none;left:0;min-height:150px;position:absolute;top:0;width:100vw;
+	a						{color:$light;text-decoration:underline;}
 	li						{border:0;float:left;height:auto;width:auto;}
 	li a					{border-radius:0;}
-	ul						{background:$light;border:0;border-radius:0;height:auto;padding:0;width:auto;}
+	ul						{background:$red;border:0;border-radius:0;height:auto;padding:0;width:auto;}
 	ul a					{color:$red;display:block;font-size:1rem;height:auto;line-height:1;padding:0;text-align:left;}
-	ul a:active				{background-color:$red;}
+	ul a:active				{background-color:$light;}
 	ul a:hover,
-	ul a:focus				{color:$red;font-weight:bold;}
+	ul a:focus				{color:$light;font-weight:bold;}
 	ul a strong				{color:$black;display:block;font-size:1rem;}
 	ul li + li + li			{border-right:none;width:89px;}}
 hr							{background:$black;border:0;height:1px;margin:0 0 2rem;}
