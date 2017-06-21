@@ -20,7 +20,7 @@ dt							{color:$black;font-weight:700;}
 footer						{background:$red;bottom:0;color:$light;float:none;height:100px;position:relative;width:100%;
 	a						{color:$light;text-decoration:underline;}
 	a:hover					{color:$light;text-decoration:none;}
-	.wrapper				{margin-top:1rem;}}
+	.wrapper				{padding-top:1rem;}}
 h1, h2, h3, h4, h5, h6		{color:$black;margin:0 0 1.5rem;}
 h1, h2, h3					{line-height:1.1;}
 h1							{font-size:2em;}
@@ -42,7 +42,7 @@ html						{background:white;font-size:11pt;}
 img							{max-width:100%;}
 p, ul, ol, table, pre, dl	{margin:0 0 1.5rem;}
 pre							{background:$light;border:0;border-radius:0;padding:8px 15px;overflow-x:auto;}
-section						{float:none;padding-bottom:2rem;width:auto;}
+section						{float:none;padding-bottom:0;width:auto;}
 section.main				{margin-top:calc(150px + 2rem);}
 small						{font-size:0.8em;}
 strong						{color:#222;font-weight:700;}
@@ -50,7 +50,7 @@ table						{border-collapse:collapse;width:100%;}
 th, td						{color:$black;border-bottom:1px solid #ddd;padding:5px 10px;text-align:left;}
 
 /* Layout */
-.logo						{height:calc(150px - 2rem);float:left;margin-left:2rem;}
+.logo						{height:calc(150px - 2rem);float:left;margin-right:2rem;}
 .wrapper					{margin:0 auto;width:860px;}
 
 /* @media */
