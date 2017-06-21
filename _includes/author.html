@@ -10,13 +10,17 @@
         <section class="main">
             <div class="wrapper">
                 <div class="post">
-                    <div class="author">
-                        <a href="{{ author.url }}" title="{{ author.name }}"><img class="avi" src="{{ author.img }}"/></a>
-                        <h1>{{ author.name }}</h1>
-                    </div>
+                    {% for post in site.posts %}
+                        {% if post.author == include.author %}
+                            {% include post_summary.html post=post %}
+                        {% endif %}
+                    {% endfor %}
                 </div>
                 <div class="side">
-
+                    <div class="author">
+                        <a href="{{ author.url }}" title="{{ author.name }}"><img class="avi" src="{{ author.img }}"/></a>
+                        <h2>{{ author.name }}</h2>
+                    </div>
                 </div>
                 <div style="clear:both"></div>
             </div>

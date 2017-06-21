@@ -51,7 +51,8 @@ table						{border-collapse:collapse;width:100%;}
 th, td						{color:$black;border-bottom:1px solid #ddd;padding:5px 10px;text-align:left;}
 
 /* Layout */
-.author img.avi				{float:left;margin-right:1rem;}
+.author						{
+	img.avi,h3				{margin-bottom:0.5rem;}}
 .byline						{margin:-1rem 0 2rem 0;}
 .logo						{height:calc(150px - 2rem);float:left;margin-right:2rem;}
 .post						{float:left;width:calc(100% - 250px - 2rem);}
