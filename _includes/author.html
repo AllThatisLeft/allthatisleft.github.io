@@ -9,13 +9,6 @@
         {% include header.html %}
         <section class="main">
             <div class="wrapper">
-                <div class="post">
-                    {% for post in site.posts %}
-                        {% if post.author == include.author %}
-                            {% include summary.html post=post %}
-                        {% endif %}
-                    {% endfor %}
-                </div>
                 <div class="side">
                     <div class="author">
                         <a href="{{ author.url }}" title="{{ author.name }}"><img class="avi" src="{{ author.img }}"/></a>
@@ -23,6 +16,13 @@
                         <p>{{ author.bio }}</p>
                         <p><a href="{{ author.url }}">{{ author.url }}</a></p>
                     </div>
+                </div>
+                <div class="post">
+                    {% for post in site.posts %}
+                        {% if post.author == include.author %}
+                            {% include summary.html post=post %}
+                        {% endif %}
+                    {% endfor %}
                 </div>
                 <div style="clear:both"></div>
             </div>
