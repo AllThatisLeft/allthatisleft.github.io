@@ -17,13 +17,16 @@ blockquote					{border-left:2px solid $red;font-style:italic;margin:0;padding:0 
 body						{background:#fff;color:$black;font:12pt "Roboto", sans-serif;font-weight:400;margin:0;padding:0;}
 code, pre					{color:$black;font-family:monospace;font-size:1rem;}
 dt							{color:$black;font-weight:700;}
-footer						{background:$red;color:$light;float:none;position:relative;width:100%;
-	a						{color:$light;text-decoration:underline;}}
+footer						{background:$red;bottom:0;color:$light;float:none;height:100px;position:relative;width:100%;
+	a						{color:$light;text-decoration:underline;}
+	a:hover					{color:$light;text-decoration:none;}
+	.wrapper				{margin-top:1rem;}}
 h1, h2, h3, h4, h5, h6		{color:$black;margin:0 0 1.5rem;}
 h1, h2, h3					{line-height:1.1;}
 h1							{font-size:2em;}
 header						{background:$red;color:$light;float:none;left:0;min-height:150px;position:absolute;top:0;width:100%;
 	a						{color:$light;text-decoration:underline;}
+	a:hover					{color:$light;text-decoration:none;}
 	li						{border:0;float:left;height:auto;width:auto;}
 	li a					{border-radius:0;}
 	ul						{background:$red;border:0;border-radius:0;height:auto;padding:0;width:auto;}
@@ -39,7 +42,7 @@ html						{background:white;font-size:11pt;}
 img							{max-width:100%;}
 p, ul, ol, table, pre, dl	{margin:0 0 1.5rem;}
 pre							{background:$light;border:0;border-radius:0;padding:8px 15px;overflow-x:auto;}
-section						{float:none;padding-bottom:2rem;width:500px;}
+section						{float:none;padding-bottom:2rem;width:auto;}
 section.main				{margin-top:calc(150px + 2rem);}
 small						{font-size:0.8em;}
 strong						{color:#222;font-weight:700;}
@@ -47,6 +50,7 @@ table						{border-collapse:collapse;width:100%;}
 th, td						{color:$black;border-bottom:1px solid #ddd;padding:5px 10px;text-align:left;}
 
 /* Layout */
+.logo						{height:calc(150px - 2rem);float:left;margin-left:2rem;}
 .wrapper					{margin:0 auto;width:860px;}
 
 /* @media */
@@ -60,6 +64,7 @@ th, td						{color:$black;border-bottom:1px solid #ddd;padding:5px 10px;text-ali
 	footer					{position:static;width:auto;}
 	section					{border:1px solid $black;border-width:1px 0;margin:0 0 20px;padding:20px 0;}
 	section.main			{margin-top:auto;}
+	.logo					{float:none;}
 }
 @media print, screen and (max-width: 720px) {
 	body					{word-wrap:break-word;}
