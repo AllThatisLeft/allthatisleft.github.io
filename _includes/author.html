@@ -12,7 +12,7 @@
                 <div class="post">
                     {% for post in site.posts %}
                         {% if post.author == include.author %}
-                            {% include post_summary.html post=post %}
+                            {% include summary.html post=post %}
                         {% endif %}
                     {% endfor %}
                 </div>
