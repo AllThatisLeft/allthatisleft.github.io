@@ -55,14 +55,15 @@ th, td						{color:$black;border-bottom:1px solid #ddd;padding:5px 10px;text-ali
 
 /* @media */
 @media print, screen and (max-width: 960px) {
-	div.wrapper				{margin:0;width:auto;}
+	div.wrapper				{margin:0 1rem;width:auto;}
 	header					{padding-right:320px;position:relative;
 		a small				{display:inline;}
-		ul					{position:absolute;right:50px;top:52px;}}
+		ul					{position:absolute;right:50px;top:52px;}
+		.wrapper			{padding-top:1rem;}}
 	header,
 	section,
 	footer					{position:static;width:auto;}
-	section					{border:1px solid $black;border-width:1px 0;margin:0 0 20px;padding:20px 0;}
+	section					{border:0;margin:0;padding:2rem 0;}
 	section.main			{margin-top:auto;}
 	.logo					{float:none;}
 }
