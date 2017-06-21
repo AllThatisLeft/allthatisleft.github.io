@@ -51,9 +51,11 @@ table						{border-collapse:collapse;width:100%;}
 th, td						{color:$black;border-bottom:1px solid #ddd;padding:5px 10px;text-align:left;}
 
 /* Layout */
+.author						{
+	img.avi					{float:left;margin-right:1rem;}}
 .logo						{height:calc(150px - 2rem);float:left;margin-right:2rem;}
-.post						{float:left;width:500px;}
-.side						{float:right;width:340px;}
+.post						{float:left;width:calc(100% - 250px - 2rem);}
+.side						{float:right;width:250px;}
 .wrapper					{margin:0 auto;width:860px;}
 
 /* @media */
@@ -68,6 +70,7 @@ th, td						{color:$black;border-bottom:1px solid #ddd;padding:5px 10px;text-ali
 	footer					{position:static;width:auto;}
 	section					{border:0;margin:0;padding:2rem 0;}
 	section.main			{margin-top:auto;}
+	.post,.side				{float:none;width:auto;}
 	.logo					{float:none;margin:0;}
 }
 @media print, screen and (max-width: 720px) {

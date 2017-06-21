@@ -1,7 +1,8 @@
+{% assign author = site.data.people[include.author] %}
 <!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
 <head>
-    <title>"{{ page.title }}" on {{ site.title | default: site.github.repository_name }}</title>
+    <title>{{ author.name }} on {{ site.title | default: site.github.repository_name }}</title>
     {% include meta.html %}
 </head>
     <body>
@@ -9,10 +10,10 @@
         <section class="main">
             <div class="wrapper">
                 <div class="post">
-                    <h1>{{ page.title }}</h1>
-                    {% assign author = site.data.people[page.author] %}
-                    <p>by <a href="/author/{{ author.name }}" title="{{ author.name }}"><b>{{ author.name }}</b></a></p>
-                    {{ content }}
+                    <div class="author">
+                        <a href="{{ author.url }}" title="{{ author.name }}"><img class="avi" src="{{ author.img }}"/></a>
+                        <h1>{{ author.name }}</h1>
+                    </div>
                 </div>
                 <div class="side">
 
