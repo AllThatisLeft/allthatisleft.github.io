@@ -28,26 +28,28 @@ footer						{background:$red;bottom:0;color:$light;float:none;height:100px;posit
 h1, h2, h3, h4, h5, h6		{color:$black;font-family:"Playfair Display",serif;margin:0 0 1.5rem;}
 h1, h2, h3					{line-height:1.1;}
 h1							{font-size:2.5em;}
-header						{background:$red;color:$light;float:none;left:0;min-height:150px;position:absolute;top:0;width:100%;
+header						{background:$red;color:$light;float:none;left:0;min-height:150px;position:relative;top:0;width:100%;
 	a						{color:$light;text-decoration:underline;}
 	a:hover					{color:$light;}
 	li						{border:0;float:left;height:auto;width:auto;}
 	li a					{border-radius:0;}
-	ul						{background:$red;border:0;border-radius:0;height:auto;padding:0;width:auto;}
-	ul a					{color:$red;display:block;font-size:1rem;height:auto;line-height:1;padding:0;text-align:left;}
-	ul a:active				{background-color:$light;}
+	li:first-child a		{border-radius:0;}
+	li:last-child a			{border-radius:0;}
+	ul						{background:none;border:0;border-radius:0;bottom:0;height:auto;margin:0;padding:0;position:absolute;right:0;width:auto;}
+	ul a					{background:$light;color:$red;display:block;font-size:1rem;font-weight:900;height:auto;line-height:1;padding:1rem;text-align:left;text-decoration:none;text-transform: uppercase;}
+	ul a:active				{background:$light;}
 	ul a:hover,
-	ul a:focus				{color:$light;font-weight:bold;}
+	ul a:focus				{color:$red;font-weight:900;text-decoration:none;}
 	ul a strong				{color:$black;display:block;font-size:1rem;}
 	ul li + li + li			{border-right:none;width:89px;}
-	.wrapper				{margin-top:1rem;}}
+	.wrapper				{height:150px;}}
 hr							{background:$black;border:0;height:1px;margin:0 0 2rem;}
 html						{background:$light-gray;font-size:11pt;}
 img							{max-width:100%;}
 p, ul, ol, table, pre, dl	{margin:0 0 1.5rem;}
 pre							{background:$light;border:0;border-radius:0;padding:8px 15px;overflow-x:auto;}
 section						{float:none;padding-bottom:0;width:auto;}
-section.main				{margin-top:calc(150px + 2rem);min-height:calc(100vh - 250px - 3.5rem);}
+section.main				{margin-top:1rem;min-height:calc(100vh - 250px - 3.5rem);}
 small						{font-size:0.8em;}
 strong						{color:#222;font-weight:700;}
 table						{border-collapse:collapse;width:100%;}
@@ -57,7 +59,7 @@ th, td						{color:$black;border-bottom:1px solid #ddd;padding:5px 10px;text-ali
 .author						{
 	img.avi,h2				{margin-bottom:0.5rem;}}
 .byline						{margin:-1rem 0 2rem 0;}
-.logo						{height:calc(150px - 2rem);float:left;margin-right:2rem;}
+.logo						{height:calc(150px - 2rem);float:left;margin:1rem 2rem 0 0;}
 .post						{background:white;box-shadow:$shadow-8dp;float:left;margin-bottom:2rem;padding:1rem;width:calc(100% - 250px - 4rem);
 	p:last-child			{margin:0;}}
 .side						{float:right;width:250px;}
@@ -65,7 +67,7 @@ th, td						{color:$black;border-bottom:1px solid #ddd;padding:5px 10px;text-ali
 	a						{color:$black;}
 	.byline					{margin-bottom:1rem;}
 	.byline a				{color:$red}}
-.wrapper					{margin:0 auto;width:860px;}
+.wrapper					{margin:0 auto;position:relative;width:860px;}
 
 /* @media */
 @media print, screen and (max-width: 960px) {
