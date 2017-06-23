@@ -10,6 +10,7 @@ $light:						#ffebee;
 $light-gray:				#f8f8f8;
 $red:						#d32e2d;
 
+$shadow-2dp:				0 1px 5px 0 rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.12);
 $shadow-8dp:				0 5px 5px -3px rgba(0,0,0,.2),0 8px 10px 1px rgba(0,0,0,.14),0 3px 14px 2px rgba(0,0,0,.12);
 $shadow-16dp:				0 8px 10px -5px rgba(0,0,0,.2),0 16px 24px 2px rgba(0,0,0,.14),0 6px 30px 5px rgba(0,0,0,.12);
 
@@ -56,11 +57,11 @@ table						{border-collapse:collapse;width:100%;}
 th, td						{color:$black;border-bottom:1px solid #ddd;padding:5px 10px;text-align:left;}
 
 /* Layout */
-.author						{background:white;box-shadow:$shadow-8dp;margin-bottom:1rem;padding:1rem;
+.author						{background:white;box-shadow:$shadow-2dp;margin-bottom:1rem;padding:1rem;
 	img.avi,h2				{margin-bottom:0.5rem;}}
 .byline						{margin:-1rem 0 2rem 0;}
 .logo						{height:calc(150px - 2rem);margin:1rem 2rem 0 0;}
-.post						{background:white;box-shadow:$shadow-16dp;float:left;margin-bottom:2rem;padding:1rem;width:calc(100% - 250px - 4rem);
+.post						{background:white;box-shadow:$shadow-2dp;float:left;margin-bottom:2rem;padding:1rem;width:calc(100% - 250px - 4rem);
 	p:last-child			{margin:0;}}
 .side						{float:right;width:250px;}
 .summary					{
