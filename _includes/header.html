@@ -1,10 +1,33 @@
 <header>
     <div class="wrapper">
         <a href="{{ site.url }}"><img alt="{{ site.title | default: site.github.repository_name }}" class="logo" src="/assets/title.svg"/></a>
+    </div>
+</header>
+<section class="nav">
+    <div class="wrapper">
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
             <li><a href="/join">Join Us</a></li>
         </ul>
     </div>
-</header>
+</section>
+<script>
+    function handleNav(e){
+        var header = document.getElementsByTagName('header')[0],
+            bar = document.getElementsByClassName('nav')[0];
+        if(window.scrollY > header.scrollHeight && window.innerWidth > 480){
+            bar.style.position  = "fixed";
+            bar.style.top       = 0;
+        } else if(window.innerWidth > 460){
+            bar.style.position  = "absolute";
+            bar.style.top       = header.scrollHeight + "px";
+        } else {
+            bar.style.position  = "relative";
+            bar.style.top       = 0;
+        }
+    }
+    window.addEventListener('scroll',handleNav);
+    window.addEventListener('resize',handleNav);
+    window.addEventListener('load',handleNav);
+</script>
