@@ -93,6 +93,7 @@ th, td						{color:$black;border-bottom:1px solid #ddd;padding:5px 10px;text-ali
 	body					{padding:0;}
 	section.nav				{box-shadow:none;}
 	section.main			{margin-top:auto;}
+	.author					{border-bottom:1px solid $red;box-shadow:none;padding:0;}
 	.post					{box-shadow:none;padding:0;}
 	.avi,.logo				{height:auto;margin:1rem 0;width:100%;}
 }
