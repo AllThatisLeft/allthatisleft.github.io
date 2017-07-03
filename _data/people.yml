@@ -2,6 +2,9 @@ anonymous:
     name: Anonymous Author
     bio: The author(s) of these works have chosen to remain anonymous.
     img: /assets/img/author/anonymous.jpg
+red_tide:
+    name: red_tide
+    img: /assets/img/author/anonymous.jpg
 trewbot:
     name: Trewbot
     bio: writer/developer, did a lot of stuff to make this site n help w this publication in general
