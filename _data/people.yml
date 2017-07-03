@@ -2,8 +2,14 @@ anonymous:
     name: Anonymous Author
     bio: The author(s) of these works have chosen to remain anonymous.
     img: /assets/img/author/anonymous.jpg
+marceau:
+    name: Marceau
+    img: /assets/img/author/anonymous.jpg
 red_tide:
     name: red_tide
+    img: /assets/img/author/anonymous.jpg
+temp_w4rp:
+    name: temporary warp
     img: /assets/img/author/anonymous.jpg
 trewbot:
     name: Trewbot
