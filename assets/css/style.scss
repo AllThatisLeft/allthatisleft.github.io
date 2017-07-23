@@ -20,36 +20,37 @@ a:hover, a:focus			{color:$black;font-weight:400;}
 a small						{color:$red;display:block;font-size:0.7em;margin:0;}
 a:hover small				{color:$black;}
 blockquote					{border-left:2px solid $red;font-style:italic;margin:0;padding:0 0 0 1.5rem;}
-body						{background:none;color:$black;font:11pt "Roboto", sans-serif;font-weight:400;margin:0;padding:0;}
+body						{background:none;color:$black;font:16px "Lora", serif;font-weight:400;margin:0;padding:0;}
 code, pre					{color:$black;font-family:monospace;font-size:1rem;}
 dt							{color:$black;font-weight:700;}
 footer						{background:$red;bottom:0;color:$light;float:none;height:100px;position:relative;width:100%;
 	a						{color:$light;text-decoration:underline;}
 	a:hover					{color:$light;}
 	.wrapper				{padding-top:1rem;}}
-h1, h2, h3, h4, h5, h6		{color:$black;font-family:"Playfair Display",serif;margin:0 0 1.5rem;}
+h1, h2, h3, h4, h5, h6		{color:$black;font-family:"Roboto",sans-serif;font-weight:900;margin:0 0 1.5rem;}
 h1, h2, h3					{line-height:1.1;}
 h1							{font-size:2.5em;}
-header						{background:$red;color:$light;float:none;left:0;min-height:150px;position:relative;top:0;width:100%;
+header						{background:none;/*background:$red;*/color:$light;float:none;left:0;min-height:150px;position:relative;top:0;width:100%;
 	a						{color:$light;text-decoration:underline;}
 	a:hover					{color:$light;}}
 hr							{background:$black;border:0;height:1px;margin:0 0 2rem;}
-html						{background:$light-gray;font-size:11pt;}
+html						{background:white;font-size:16px;min-width:200px;}
 img							{max-width:100%;}
-p, ul, ol, table, pre, dl	{margin:0 0 1.5rem;}
+p, ul, ol, table, pre, dl	{line-height:2.2rem;margin:0 0 1.5rem;}
 pre							{background:$light;border:0;border-radius:0;padding:8px 15px;overflow-x:auto;}
 section						{float:none;padding-bottom:0;width:auto;}
-section.nav					{background:white;box-shadow:$shadow-8dp;height:36px /* I wanted to set this to 2.5rem but it doesnt floor it ): */;position:absolute;top:150px;width:100%;z-index:1600;
-	li						{border:0;float:left;height:auto;width:auto;}
+section.nav					{background:none;/*background:white;box-shadow:$shadow-8dp;*/height:36px /* I wanted to set this to 2.5rem but it doesnt floor it ): */;position:absolute;top:150px;width:100%;z-index:1600;
+	li						{border:0;float:left;height:auto;width:33%;}
 	li a					{border-radius:0;}
 	li:first-child a		{border-radius:0;}
 	li:last-child a			{border-radius:0;}
 	ul						{background:none;border:0;border-radius:0;height:auto;list-style:none;margin:0;padding:0;width:auto;}
-	ul a					{background:white;color:$red;display:block;font-size:1rem;font-weight:400;height:auto;line-height:1;padding:0.75rem 1rem;text-align:left;text-decoration:none;}
-	ul a:active				{background:white;}
+	ul a					{/*background:white;*/color:$red;display:block;font-size:1rem;font-weight:400;height:auto;line-height:1;padding:0.75rem 1rem;text-align:center;text-decoration:none;}
+	ul a:active				{/*background:white;*/}
 	ul a:hover,
 	ul a:focus				{border-bottom:0.25rem solid $red;font-weight:400;padding-bottom:0.5rem;text-decoration:none;}
-	ul a strong				{color:$black;display:block;font-size:1rem;}}
+	ul a strong				{color:$black;display:block;font-size:1rem;}
+	.wrapper				{width:300px;}}
 section.main				{margin-top:4.5rem;min-height:calc(100vh - 250px - 3.5rem);}
 small						{font-size:0.8em;}
 strong						{color:#222;font-weight:700;}
@@ -60,8 +61,8 @@ th, td						{color:$black;border-bottom:1px solid #ddd;padding:5px 10px;text-ali
 .author						{background:white;box-shadow:$shadow-2dp;margin-bottom:1rem;padding:1rem;
 	img.avi,h2				{margin-bottom:0.5rem;}}
 .byline						{margin:-1rem 0 2rem 0;}
-.logo						{height:calc(150px - 2rem);margin:1rem 2rem 0 0;}
-.post						{background:white;box-shadow:$shadow-2dp;float:left;margin-bottom:2rem;padding:1rem;width:calc(100% - 250px - 4rem);
+.logo						{height:calc(150px - 2rem);margin:1rem 2rem 0 calc(50% - 125px);}
+.post						{background:white;/*box-shadow:$shadow-2dp;*/float:left;margin-bottom:2rem;padding:1rem;/*width:calc(100% - 250px - 4rem);*/
 	p:last-child			{margin:0;}}
 .side						{float:right;width:250px;}
 .summary					{
@@ -71,28 +72,32 @@ th, td						{color:$black;border-bottom:1px solid #ddd;padding:5px 10px;text-ali
 .wrapper					{margin:0 auto;position:relative;width:860px;}
 
 /* @media */
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 960px){
 	div.wrapper				{margin:0 1rem;width:auto;}
-	header					{padding-right:320px;position:relative;
+	header					{padding-right:0 !important;position:relative;width:100%;
 		a small				{display:inline;}
 		ul					{position:absolute;right:50px;top:52px;}}
-	header,
 	section,
 	footer					{position:static;width:auto;}
 	section					{border:0;margin:0;padding:0;}
 	.post,.side				{float:none;width:auto;}
+	header .wrapper,
+	.nav .wrapper			{margin:auto;}
 }
-@media print, screen and (max-width: 720px) {
+@media print, screen and (max-width: 720px){
 	body					{word-wrap:break-word;}
 	header					{padding:0;
 		ul, p.view			{position:static;}}
 	pre, code				{word-wrap:normal;}
 }
-@media print, screen and (max-width: 480px) {
+@media print, screen and (max-width: 480px){
 	html					{background:white;}
 	body					{padding:0;}
-	section.nav				{box-shadow:none;}
-	section.main			{margin-top:auto;}
+	section.nav				{box-shadow:none;position:static;width:100%;
+		li					{width:33%;}
+		ul a				{text-align:center;}
+		.wrapper			{width:100%;}}
+	section.main			{margin-top:2.5rem;}
 	.author					{border-bottom:1px solid $red;box-shadow:none;padding:0;}
 	.post					{box-shadow:none;padding:0;}
 	.avi,.logo				{height:auto;margin:1rem 0;width:100%;}
