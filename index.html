@@ -1,38 +1,45 @@
 <html>
 <head>
 	<title>All That is Left</title>
-	<link href='https://fonts.googleapis.com/css?family=Roboto:900|Lora:400,400i|Playfair+Display:700i' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:900|Lora:400,400i' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" type="image/png" href="/assets/img/fav.png"/>
 	<style>
-		*				{color:white;font-family:sans-serif;margin:0;padding:0;}
-		h1				{font-size:5em;}
-		h2				{font-size:3em;margin-bottom:20px;}
-		h3				{font-size:2em;margin:15px 0;}
-		html			{background:#d32e2d;}
-		.book img		{height:50vh;position:absolute;right:5vw;top:25vh;}
-		.info			{font-family:'Lora',serif;font-size:2rem;margin-left:5vw;width:65vw;}
-		.logo			{height:calc(100% - 8rem);padding:2rem 2rem 0 2rem;width:calc(100% - 4rem);}
-		.more			{font-family:'Playfair Display',serif;font-size:2rem;font-style:italic;font-weight:700;text-align:center;margin:2rem 0;width:100%;}
-		.name			{font-family:'Roboto',sans-serif;font-size:5em;font-weight:900;text-transform:uppercase;margin-left:5vw;}
-		.page			{background-position:center;background-size:cover;height:100vh;position:relative;width:100%;}
-			#page-info	{height:90vh;padding-top:10vh;}
-		.title			{height:100%;width:100%;background:url(assets/title.svg) no-repeat 100% 100%;} /** http://byform.co/ **/
+		a							{color:#222;}
+		body						{margin:0;padding:0;}
+		h1,h2,h3,h4					{font-family:'Roboto',sans-serif;font-weight:900;}
+		h1							{font-size:5em;}
+		h2							{font-size:3em;margin-bottom:20px;}
+		h3							{font-size:2em;margin:15px 0;}
+		html						{background:none;color:#222;font-family:'Lora',serif;font-size:16px;margin:0;padding:0;}
+		div.page					{background-position:center;background-size:cover;height:100vh;position:relative;width:100%;}
+			div.page.header			{background:#d32e2d;}
+				div.header-container{height:calc(100% - 4rem);padding:2rem 2rem 0 2rem;width:calc(100% - 4rem);}
+				div.header-logo		{height:100%;width:100%;background:url(assets/title.svg) no-repeat 100% 100%;} /** http://byform.co/ **/
+			div.page.about			{}
+				div.about-body		{margin-left:5vw;padding-top:calc(50vh - 150px);width:65vw;}
+					h1.about-header	{color:#d32e2d;margin:0;text-transform:uppercase;}
+					p.about-copy	{font-size:2rem;line-height:1.8em;margin:0;}
+				img.about-img		{height:50vh;position:absolute;right:5vw;top:25vh;}
 	</style>
 </head>
 <body>
-	<div class="page">
-		<div class="logo">
-			<div class="title">&nbsp;</div>
+	<div class="page header">
+		<div class="header-container">
+			<div class="header-logo">&nbsp;</div>
 		</div>
-		<div class="more">&darr;&emsp;Scroll for more&emsp;&darr;</div>
 	</div>
-	<div class="page" id="page-info">
-		<div class="name">All That Is Left</div>
-		<div class="info">
-			A publication of leftist art and writing for a movement of solidarity,
-			released quarterly by a nonsectarian group of collaborators.
+	<div class="page about">
+		<div class="about-body">
+			<h1 class="about-header">All That Is Left</h1>
+			<p class="about-copy">
+				A publication of leftist art and writing for a movement of solidarity,
+				released quarterly by a nonsectarian group of collaborators.
+			</p>
+			<p class="about-copy">
+				<a href="https://atil.xyz/about">Read More &rarr;</a>
+			</p>
 		</div>
-		<div class="book"><img src="assets/book.svg"/></div>
+		<img class="about-img" src="assets/book.svg"/>
 	</div>
 </body>
 </html>
