@@ -32,4 +32,4 @@ Other publications will be able to work with this organization in the same manne
 
 ### Revolutionary Labor Party
 
-Read about the RLP on their site: https://revlabor.wixsite.com/revlaborparty
+Read about the RLP on [their site](https://revlabor.wixsite.com/revlaborparty).
