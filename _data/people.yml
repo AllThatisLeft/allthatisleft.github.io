@@ -11,7 +11,7 @@ red_tide:
     img: /assets/img/author/anonymous.jpg
 temp_w4rp:
     name: temporary warp
-    img: /assets/img/author/anonymous.jpg
+    img: /assets/img/author/temporary_warp.png
 trewbot:
     name: Trewbot
     bio: writer/developer, did a lot of stuff to make this site n help w this publication in general
