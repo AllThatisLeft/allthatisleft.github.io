@@ -15,14 +15,23 @@
 		h3							{font-size:2em;margin:15px 0;}
 		html						{background:none;color:#222;font-family:'Lora',serif;font-size:16px;margin:0;padding:0;}
 		div.page					{background-position:center;background-size:cover;height:100vh;position:relative;width:100%;}
-			div.page.header			{background:#d32e2d;}
+			div.page.header			{display:none;background:#d32e2d;}
 				div.header-container{height:calc(100% - 4rem);padding:2rem 2rem 0 2rem;width:calc(100% - 4rem);}
 				div.header-logo		{height:100%;width:100%;background:url(assets/title.svg) no-repeat 100% 100%;} /** http://byform.co/ **/
 			div.page.about			{}
 				div.about-body		{margin-left:5vw;padding-top:calc(50vh - 150px);width:65vw;}
+					img.about-logo	{display:none;}
 					h1.about-header	{color:#d32e2d;margin:0;text-transform:uppercase;}
 					p.about-copy	{font-size:2rem;line-height:1.8em;margin:0;}
 				img.about-img		{height:50vh;position:absolute;right:5vw;top:25vh;}
+		@media print, screen and (max-width:480px){
+			div.page				{height:auto;}
+			div.about-body			{margin:0;padding:0 0.5rem;position:static;width:auto;}
+				img.about-logo		{display:block;height:auto;margin:1rem 0;width:100%;}
+				h1.about-header		{display:none;}
+				p.about-copy		{font-size:1.5rem;}
+			img.about-img			{display:none;}
+		}
 	</style>
 </head>
 <body>
@@ -33,13 +42,14 @@
 	</div>
 	<div class="page about">
 		<div class="about-body">
+			<img class="about-logo" alt="All That Is Left" src="/assets/title-red.svg"/>
 			<h1 class="about-header">All That Is Left</h1>
 			<p class="about-copy">
 				A publication of leftist art and writing for a movement of solidarity,
 				released quarterly by a nonsectarian group of collaborators.
 			</p>
 			<p class="about-copy">
-				<a href="https://atil.xyz/about">Read More &rarr;</a>
+				<a href="/about">Read More &rarr;</a>
 			</p>
 		</div>
 		<img class="about-img" src="assets/book.svg"/>

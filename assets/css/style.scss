@@ -101,9 +101,10 @@ th, td						{color:$black;border-bottom:1px solid #ddd;padding:5px 10px;text-ali
 		.wrapper			{width:100%;}}
 	section.main			{margin-top:2.5rem;}
 	.author					{border-bottom:1px solid $red;box-shadow:none;padding:0;}
+	.page-content			{padding:0;}
 	.post					{box-shadow:none;padding:0;text-align:left;}
 	.side					{margin-left:0;}
-	.avi,.logo				{height:auto;margin:1rem 0;width:100%;}
+	.avi,.logo				{height:auto;margin:1rem 0.5rem;width:100%;}
 }
 @media print {
 	html					{background:white;}
