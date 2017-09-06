@@ -36,7 +36,7 @@ header						{background:none;/*background:$red;*/color:$light;float:none;left:0;
 hr							{background:$black;border:0;height:1px;margin:0 0 2rem;}
 html						{background:white;font-size:16px;min-width:200px;}
 img							{max-width:100%;}
-p, ul, ol, table, pre, dl	{line-height:2.2rem;margin:0 0 1.5rem;}
+p, ul, ol, table, pre, dl	{line-height:2.2rem;margin:0 0 1rem;}
 pre							{background:$light;border:0;border-radius:0;padding:8px 15px;overflow-x:auto;}
 section						{float:none;padding-bottom:0;width:auto;}
 section.nav					{background:none;height:36px;margin-bottom:5px;width:100%;z-index:1600;
@@ -62,14 +62,14 @@ th, td						{color:$black;border-bottom:1px solid #ddd;padding:5px 10px;text-ali
 	img.avi,h2				{margin-bottom:0.5rem;}}
 .article-byline				{margin:-1rem 0 2rem 0;}
 .article-image				{height:calc(100vh - 190px);left:0;position:absolute;top:190px;width:100%;}
-.article-content			{background:white;float:left;margin-bottom:2rem;margin-top:calc(50vh - 190px);padding:1rem;text-align:justify;
+.article-content			{background:white;float:left;margin-bottom:2rem;margin-top:calc(66vh - 190px);padding:1rem;text-align:justify;
 	p:last-child			{margin:0;}}
 .logo						{height:calc(150px - 2rem);margin:1rem 2rem 0 calc(50% - 125px);}
 .page-content				{background:white;float:left;margin-bottom:2rem;padding:1rem;text-align:justify;}
 .side						{float:right;margin-left:1rem;width:250px;}
 .summary					{
 	a						{color:$black;}
-	.byline					{margin-bottom:1rem;}
+	.byline					{margin:-1rem 0 1rem 0;}
 	.byline a				{color:$red}}
 .wrapper					{margin:0 auto;position:relative;width:860px;}
 
