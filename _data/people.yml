@@ -12,8 +12,8 @@ red_tide:
 temp_w4rp:
     name: temporary warp
     img: /assets/img/author/temporary_warp.png
-trewbot:
-    name: Trevor Hoglund
-    bio: Writer & Developer, Student of Physics and Mathematics
-    img: /assets/img/author/trewbot.jpg
-    url: https://trew.moe
+unajada:
+    name: Una Ada
+    bio: Writer & Developer
+    img: /assets/img/author/unajada.jpg
+    url: https://twitter.com/unajada
