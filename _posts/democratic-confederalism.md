@@ -3,6 +3,9 @@ title: 2017-12-21-democratic-confederalism.md
 author: temp_w4rp
 layout: post
 published: true
+permalink: /issue/001/democratic-confederalism
+img: /assets/img/article/v000-test.jpg
+issue: 1
 ---
 Democratic Confederalism, also known as Apoism, is centered around three pillars: democracy, ecology and female emancipation. Today, the ideology is spearheaded by the Kurdish People and their fittingly named project “The Kurdish Project”. The ideology is largely based on Bookchin’s theories on social ecology with a greater weight given to feminism, as such Bookchin’s influences are evident throughout. Abdullah Öcalan, the primary philosopher of the ideology, hopes that these principles would counteract the limitations of the ‘communal economy’ within democratic autonomy. Councils, communes, and cooperatives are generally separated by Rojava’s current “cantons.” These various regions are currently building this social economy without any real state or government controlling the people. Öcalan has said about this social economy that “the use value must be greater than the exchange value.” This is a promise that a social economy is one in which the needs of the people are secured away from any monopoly of the means of production. Social economy has four main characteristics: a lack of centralization, industrial and ecological integration, openness to all ecological activities, and a basis of what Ocalan believes are moral values.
  
