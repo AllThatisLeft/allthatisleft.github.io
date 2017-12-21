@@ -1,5 +1,5 @@
 ---
-title: 2017-12-21-democratic-confederalism.md
+title: Democratic Confederalism
 author: temp_w4rp
 layout: post
 published: true
