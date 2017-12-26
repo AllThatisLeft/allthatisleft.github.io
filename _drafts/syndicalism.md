@@ -3,6 +3,9 @@ title: Syndicalism
 author: trewbot
 layout: post
 img: /assets/img/article/v001-syndicalism.jpg
+published: true
+permalink: /issue/001/syndicalism
+issue: 1
 ---
 
 While a sentiment of anti-authoritarianism born of a distaste for corporatism and other modern manifestations of centralized capitalist governments lends itself quite cleanly to the ideas of anarchism, what is not immediately clear is how, in an anarchist system, the resources necessary for the survival of all people will be both produced and distributed, or how a society following this ideal could avoid ever being plagued by the rebirth of capital.
