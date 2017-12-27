@@ -1,6 +1,6 @@
 ---
 title: Syndicalism
-author: trewbot
+author: unajada
 layout: post
 img: /assets/img/article/v001-syndicalism.jpg
 published: true
