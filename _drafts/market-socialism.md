@@ -13,16 +13,18 @@ While Yugoslavia and the system of Market Socialism had many positives, various 
 
 Market Socialism is a tendency which I believe has reasons to support it, but like all systems there is room for some sort of improvement. We must remember that our goal as leftists should be to unite under the banner of anti-capitalism so as to bring on a socialist revolution. And as always, remember that every tendencies’ goal is the achievement of Communism. I hope that you learned more about this tendency, and will continue to support non-sectarianism and left unity.
 
-https://www.marxists.org/reference/archive/hoxha/works/ebooks/yugoslav_selfadministration_a_capitalist_theory_and_practice.pdf
+**Bibliography**
 
-http://www.ernestmandel.org/en/works/txt/1967/yugoslav_economic_theory.htm
+1. https://www.marxists.org/reference/archive/hoxha/works/ebooks/yugoslav_selfadministration_a_capitalist_theory_and_practice.pdf
 
-https://www.marxists.org/archive/tito/1950/06/26.htm
+2. http://www.ernestmandel.org/en/works/txt/1967/yugoslav_economic_theory.htm
 
-https://www.marxists.org/archive/tito/1950/06/26.htm
+3. https://www.marxists.org/archive/tito/1950/06/26.htm
 
-https://www.marxists.org/archive/tito/1959/04/19.htm
+4. https://www.marxists.org/archive/tito/1950/06/26.htm
 
-https://www.marxists.org/archive/tito/1948/11/26.htm
+5. https://www.marxists.org/archive/tito/1959/04/19.htm
 
-https://www.marxists.org/archive/tito/1945/02/04.htm
+6. https://www.marxists.org/archive/tito/1948/11/26.htm
+
+7. https://www.marxists.org/archive/tito/1945/02/04.htm
