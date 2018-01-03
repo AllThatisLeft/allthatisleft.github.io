@@ -3,6 +3,9 @@ published: true
 title: Marxism-Leninism-Maoism
 author: anonymous
 layout: post
+img: /assets/img/article/v001-mlm.jpg
+permalink: /issue/001/mlm
+issue: 1
 ---
 Marxism-Leninism-Maoism is both a continuation and a rupture of Marxism-Leninism, just as Marxism-Leninism continued and ruptured with Marxism. What this means is that while MLM adds on to ML theory, it is also distinct. First to understand MLM, ML must also be understood. ML is discussed in another essay, so this essay will focus purely on the Maoist addition to Marxist theory.
 
@@ -25,7 +28,3 @@ The Leninist (and therefore MZT) conception of the Communist Party is that it is
 From Mao's point of view, it was capitalist roaders who took control of the Communist Party of the Soviet Union following Stalin's death, and capitalist roaders in the Communist Party of China were the ones calling for him to be removed in the late 1950s and early 1960s. The former were why he thought it necessary to split with the Soviet Union, the latter he considered a direct threat to Chinese socialism. However, the key distinction is to note that, at this point in China, all was not yet lost: there was factionalism in the Party between its right/capitalist and left/socialist wings, both at a local and national level. There was still hope to shift the proverbial bus back onto the socialist road, but what would be needed was a vast uprising by the people to retake control of their Party. This, in essence, is the theory behind Cultural Revolution: calling upon the people and the progressive wings of the government to launch a mass insurrection, to suppress the capitalist roaders, to once more assert their control over their Party, their government, and their country.
 
 The dangers of not having a Cultural Revolution, such as in the USSR or having a failed one like what happened in the PRC are that roaders within the Party will have strength enough to launch capitalist-oriented reforms such as the Kosygin reforms in the USSR and Deng’s liberalization in the PRC and begin a gradual destruction of socialism. The roaders in the Party having the necessary strength to this essentially breaks the dictatorship of the proletariat, as the proletariat are no longer in control of the governing state apparatus, and while socialist relations of production may exist on lower levels of the Party and the society, the state apparatus is effectively capitalist, and therefore capable both of destroying socialism as well as acting imperialist in interactions with other socialist nations or movements. This makes Cultural Revolution perhaps the most important contribution, as it is what allows the centralized organs of the proletarian state to remain under the control of the proletariat.
- 
- 
-
-
