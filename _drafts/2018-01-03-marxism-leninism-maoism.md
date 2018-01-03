@@ -7,7 +7,7 @@ img: /assets/img/article/v001-mlm.jpg
 permalink: /issue/001/mlm
 issue: 1
 ---
-Marxism-Leninism-Maoism is both a continuation and a rupture of Marxism-Leninism, just as Marxism-Leninism continued and ruptured with Marxism. What this means is that while MLM adds on to ML theory, it is also distinct. First to understand MLM, ML must also be understood. ML is discussed in another essay, so this essay will focus purely on the Maoist addition to Marxist theory.
+Marxism-Leninism-Maoism (MLM) is both a continuation and a rupture of Marxism-Leninism, just as Marxism-Leninism (ML) continued and ruptured with Marxism. What this means is that while MLM adds on to ML theory, it is also distinct. First to understand MLM, ML must also be understood. This essay will focus purely on the Maoist addition to Marxist theory rather than the entirety of Marxism-Leninism and its theories.
 
 The Mass Line is a means of organizing a Communist Party's political platform as well as its internal structure. Mao considered the common people under capitalism to be inherently revolutionary, even if they didn't recognize it: their, strikes, protests, riots, petitions, acts of sabotage, etcetera, could and did make their governments listen, and change their policy. They were capable of making governments bow to their will if they felt like it. However, due to the ruling class ideology being reproduced as society's ideology, the common people, despite being unconsciously revolutionary, do not consciously believe in revolution: therefore, while they have ideas about what they would like to change, they are accordingly watered-down.
 
