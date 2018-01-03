@@ -1,8 +1,11 @@
 ---
 title: Marxism
-author: marceau
+author: anonymous
 layout: post
 published: true
+img: /assets/img/article/v000-test.jpg
+permalink: /issue/001/market-socialism
+issue: 1
 ---
 
 
