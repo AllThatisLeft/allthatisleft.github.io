@@ -18,16 +18,14 @@ Market Socialism is a tendency which I believe has reasons to support it, but li
 
 **Bibliography**
 
-1. https://www.marxists.org/reference/archive/hoxha/works/ebooks/yugoslav_selfadministration_a_capitalist_theory_and_practice.pdf
+1. [Hoxha, E.H. (1978). _Yugoslav "Self-Administration" - A Capitalist Theory and Practice_. Tirana, Albania: 8 Nëntori.](https://www.marxists.org/reference/archive/hoxha/works/ebooks/yugoslav_selfadministration_a_capitalist_theory_and_practice.pdf)
 
-2. http://www.ernestmandel.org/en/works/txt/1967/yugoslav_economic_theory.htm
+2. [Mandel, E.E. (1967). Yugoslav Economic Theory. _Monthly Review_, 18, 40-49.](http://www.ernestmandel.org/en/works/txt/1967/yugoslav_economic_theory.htm)
 
-3. https://www.marxists.org/archive/tito/1950/06/26.htm
+3. [Tito, J.P. (1950). _Workers Manage Factories in Yugoslavia_. Belgrade, Serbia.](https://www.marxists.org/archive/tito/1950/06/26.htm)
 
-4. https://www.marxists.org/archive/tito/1950/06/26.htm
+4. [Tito, J.P. (1963). _Tito: Selected Speeches and Articles 1941-1961_. Belgrade, Serbia: Naprijed.](https://www.marxists.org/archive/tito/1959/04/19.htm)
 
-5. https://www.marxists.org/archive/tito/1959/04/19.htm
+5. https://www.marxists.org/archive/tito/1948/11/26.htm
 
-6. https://www.marxists.org/archive/tito/1948/11/26.htm
-
-7. https://www.marxists.org/archive/tito/1945/02/04.htm
+6. https://www.marxists.org/archive/tito/1945/02/04.htm
