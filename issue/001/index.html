@@ -1,7 +1,12 @@
+<!--
+   -    All That Is Left Issue 001 Landing Page
+   -    Written by Trewbot
+   -    2018.01.09
+ -->
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<title>All That is Left</title>
+	<title>Issue 001 - All That is Left</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="chrome=1">
 	<meta name="viewport" content="width=device-width">
@@ -14,17 +19,8 @@
 		h1							{font-size:5em;}
 		h2							{font-size:3em;margin-bottom:20px;}
 		h3							{font-size:2em;margin:15px 0;}
-		html						{background:none;color:#222;font-family:'Lora',serif;font-size:16px;margin:0;padding:0;}
-		div.page					{background-position:center;background-size:cover;min-height:calc(100vh - 30px);position:relative;width:100%;}
-			div.page.header			{display:none;background:#d32e2d;}
-				div.header-container{height:calc(100% - 4rem);padding:2rem 2rem 0 2rem;width:calc(100% - 4rem);}
-				div.header-logo		{height:100%;width:100%;background:url(assets/title.svg) no-repeat 100% 100%;} /** http://byform.co/ **/
-			div.page.about			{}
-				div.about-body		{margin-left:5vw;padding-top:calc(50vh - 150px);width:65vw;}
-					img.about-logo	{display:none;}
-					h1.about-header	{color:#d32e2d;margin:0;text-transform:uppercase;}
-					p.about-copy	{font-size:2rem;line-height:1.8em;margin:0;}
-				img.about-img		{height:50vh;position:absolute;right:5vw;top:25vh;}
+		html						{background:#d32e2d;color:#222;font-family:'Lora',serif;font-size:16px;margin:0;padding:0;}
+		div.page					{background-position:center;background-size:cover;position:relative;width:100%;}
 			div.page.issue			{background:#d32e2d;}
 				div.issue-body		{margin-left:5vw;padding:150px 0;width:65vw;}
                     h1.issue-header,
@@ -34,14 +30,9 @@
 				img.issue-img		{height:50vh;position:absolute;right:5vw;top:25vh;}
 		@media print, screen and (max-width:480px){
 			div.page				{height:auto;}
-			div.about-body			{margin:0;padding:0 0.5rem;position:static;width:auto;}
-				img.about-logo		{display:block;height:auto;margin:1rem 0;width:100%;}
-				h1.about-header		{display:none;}
-				p.about-copy		{font-size:1.5rem;}
-			img.about-img			{display:none;}
 			div.issue-body			{margin:0;padding:0 0.5rem;position:static;width:auto;}
 				img.issue-logo		{display:block;height:auto;margin:1rem 0;width:100%;}
-				h1.issue-header,
+                h1.issue-header,
 				h2.issue-header		{margin-top:2rem !important;}
 				p.issue-copy		{font-size:1.5rem;}
 			img.issue-img			{display:none;}
@@ -49,28 +40,10 @@
 	</style>
 </head>
 <body>
-	<div class="page header">
-		<div class="header-container">
-			<div class="header-logo">&nbsp;</div>
-		</div>
-	</div>
-	<div class="page about">
-		<div class="about-body">
-			<img class="about-logo" alt="All That Is Left" src="/assets/title-red.svg"/>
-			<h1 class="about-header">All That Is Left</h1>
-			<p class="about-copy">
-				A publication of leftist art and writing for a movement of solidarity,
-				released online by a nonsectarian group of collaborators.
-			</p>
-			<p class="about-copy">
-				<a href="/about">Read More &rarr;</a>
-			</p>
-		</div>
-		<img class="about-img" src="assets/book.svg"/>
-	</div>
 	<div class="page issue">
 		<div class="issue-body">
-            <h1 class="issue-header">Issue 001, Q1 2018</h1>
+            <h2 class="issue-header">All That Is Left</h2>
+			<h1 class="issue-header">Issue 001, Q1 2018</h1>
 			<p class="issue-copy">
 				<a href="https://atil.xyz/issue/001.pdf">Download PDF &rarr;</a>
 			</p>
