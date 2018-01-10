@@ -1,5 +1,5 @@
 anonymous:
-    name: Anonymous Author
+    name: All That Is Left
     bio: The author(s) of these works have chosen to remain anonymous.
     img: /assets/img/author/anonymous.jpg
 marceau:
@@ -14,7 +14,7 @@ temp_w4rp:
     img: /assets/img/author/temporary_warp.png
 unajada:
     name: Una Ada
-    bio: Writer & Developer
+    bio: Writer, developer, and editor. Self-theory anarchist from the Midwest, USA. 
     img: /assets/img/author/unajada.jpg
     url: https://twitter.com/unajada
 dctm1:
