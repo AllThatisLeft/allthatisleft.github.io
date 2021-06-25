@@ -1,113 +1,256 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-	<title>All That is Left</title>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="chrome=1">
-	<meta name="viewport" content="width=device-width">
-	<link href='https://fonts.googleapis.com/css?family=Roboto:900|Lora:400,400i' rel='stylesheet' type='text/css'>
-	<link rel="shortcut icon" type="image/png" href="/assets/img/fav.png"/>
-	<style>
-		a							{color:#222;}
-		body						{margin:0;padding:0;}
-		h1,h2,h3,h4					{font-family:'Roboto',sans-serif;font-weight:900;}
-		h1							{font-size:5em;}
-		h2							{font-size:3em;margin-bottom:20px;}
-		h3							{font-size:2em;margin:15px 0;}
-		html						{background:none;color:#222;font-family:'Lora',serif;font-size:16px;margin:0;padding:0;}
-		div.page					{background-position:center;background-size:cover;min-height:calc(100vh - 30px);position:relative;width:100%;}
-			div.page.header			{display:none;background:#d32e2d;}
-				div.header-container{height:calc(100% - 4rem);padding:2rem 2rem 0 2rem;width:calc(100% - 4rem);}
-				div.header-logo		{height:100%;width:100%;background:url(assets/title.svg) no-repeat 100% 100%;} /** http://byform.co/ **/
-			div.page.about			{}
-				div.about-body		{margin-left:5vw;padding-top:calc(50vh - 150px);width:65vw;}
-					img.about-logo	{display:none;}
-					h1.about-header	{color:#d32e2d;margin:0;text-transform:uppercase;}
-					p.about-copy	{font-size:2rem;line-height:1.8em;margin:0;}
-				img.about-img		{height:50vh;position:absolute;right:5vw;top:25vh;}
-			div.page.issue			{background:#d32e2d;}
-				div.issue-body		{margin-left:5vw;padding:150px 0;width:65vw;}
-                    h1.issue-header,
-                    h2.issue-header	{color:#fff;margin:0;text-transform:uppercase;}
-					p.issue-copy	{color:#fff;font-size:2rem;line-height:1.8em;margin:0;}
-                    p.issue-copy a  {color:#fff;}
-				img.issue-img		{height:50vh;position:absolute;right:5vw;top:25vh;}
-		@media print, screen and (max-width:480px){
-			div.page				{height:auto;}
-			div.about-body			{margin:0;padding:0 0.5rem;position:static;width:auto;}
-				img.about-logo		{display:block;height:auto;margin:1rem 0;width:100%;}
-				h1.about-header		{display:none;}
-				p.about-copy		{font-size:1.5rem;}
-			img.about-img			{display:none;}
-			div.issue-body			{margin:0;padding:0 0.5rem;position:static;width:auto;}
-				img.issue-logo		{display:block;height:auto;margin:1rem 0;width:100%;}
-				h1.issue-header,
-				h2.issue-header		{margin-top:2rem !important;}
-				p.issue-copy		{font-size:1.5rem;}
-			img.issue-img			{display:none;}
-		}
-	</style>
-</head>
-<body>
-	<div class="page header">
-		<div class="header-container">
-			<div class="header-logo">&nbsp;</div>
-		</div>
-	</div>
-	<div class="page about">
-		<div class="about-body">
-			<img class="about-logo" alt="All That Is Left" src="/assets/title-red.svg"/>
-			<h1 class="about-header">All That Is Left</h1>
-			<p class="about-copy">
-				A publication of leftist art and writing for a movement of solidarity,
-				released online by a nonsectarian group of collaborators.
-			</p>
-			<p class="about-copy">
-				<a href="/about">Read More &rarr;</a>
-			</p>
-		</div>
-		<img class="about-img" src="assets/book.svg"/>
-	</div>
-	<div class="page issue">
-		<div class="issue-body">
-            <h1 class="issue-header">Issue 001, Q1 2018</h1>
-			<p class="issue-copy">
-				<a href="https://atil.xyz/issue/001.pdf">Download PDF &rarr;</a>
-			</p>
-            <h2 class="issue-header" style="margin-top:150px">Read Online</h2>
-            <p class="issue-copy">
-				<a href="https://atil.xyz/issue/001/marxism">Marxism</a>
-                &ldquo;Marx’s ideas have resonated with millions across the world: those who saw in our hazy future a better world...&rdquo;
-			</p>
-            <p class="issue-copy">
-				<a href="https://atil.xyz/issue/001/leninism">Leninism</a>
-                &ldquo;The theory of Leninism is at its most basic foundations, the practical application of Marxism as interpreted by Lenin...&rdquo;
-			</p>
-            <p class="issue-copy">
-				<a href="https://atil.xyz/issue/001/mlm">Marxism-Leninism-Maoism</a>
-                &ldquo;Marxism-Leninism-Maoism is both a continuation and a rupture of Marxism-Leninism...&rdquo;
-			</p>
-            <p class="issue-copy">
-				<a href="https://atil.xyz/issue/001/syndicalism">Syndicalism</a>
-                &ldquo;A sentiment of anti-authoritarianism born of a distaste for corporatism and other modern manifestations of centralized capitalist governments lends itself quite cleanly to the ideas of anarchism...&rdquo;
-			</p>
-            <p class="issue-copy">
-				<a href="https://atil.xyz/issue/001/democratic-confederalism">Democratic Confederalism</a>
-                &ldquo;Democratic Confederalism, also known as Apoism, is centered around three pillars: democracy, ecology and female emancipation...&rdquo;
-			</p>
-            <p class="issue-copy">
-				<a href="https://atil.xyz/issue/001/trotskyism">Trotskyism</a>
-                &ldquo;On August 21, 1940, the man known as Leon Trotsky lay dead on a cot in a local hospital near his home in Mexico City...&rdquo;
-			</p>
-            <p class="issue-copy">
-				<a href="https://atil.xyz/issue/001/market-socialism">Market Socialism</a>
-                &ldquo;Yugoslavia was a socialist nation that arose from World War II. It was unique in many ways. It had one of the largest militaries in the world at its height, had relations with both the capitalist west and socialist east, and had a unique system, Market Socialism...&rdquo;
-			</p>
-            <p class="issue-copy">
-				<a href="https://atil.xyz/issue/001/democratic-socialism">Democratic Socialism</a>
-                &ldquo;There are a great multitude of misconceptions surrounding democratic socialism and the people associated with that school of thought. The term came into wider prominence amongst the general public during the 2016 US Presidential primaries...&rdquo;
-			</p>
-		</div>
-	</div>
-</body>
+  <head>
+    <title>All That is Left</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:900|Lora:400,400i"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="shortcut icon" type="image/png" href="/assets/img/fav.png" />
+    <style>
+      a {
+        color: #222;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      h1,
+      h2,
+      h3,
+      h4 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+      }
+      h1 {
+        font-size: 5em;
+      }
+      h2 {
+        font-size: 3em;
+        margin-bottom: 20px;
+      }
+      h3 {
+        font-size: 2em;
+        margin: 15px 0;
+      }
+      html {
+        background: none;
+        color: #222;
+        font-family: 'Lora', serif;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+      }
+      div.page {
+        background-position: center;
+        background-size: cover;
+        min-height: calc(100vh - 30px);
+        position: relative;
+        width: 100%;
+      }
+      div.page.header {
+        display: none;
+        background: #d32e2d;
+      }
+      div.header-container {
+        height: calc(100% - 4rem);
+        padding: 2rem 2rem 0 2rem;
+        width: calc(100% - 4rem);
+      }
+      div.header-logo {
+        height: 100%;
+        width: 100%;
+        background: url(assets/title.svg) no-repeat 100% 100%;
+      } /** http://byform.co/ **/
+      div.about-body {
+        margin-left: 5vw;
+        padding-top: calc(50vh - 150px);
+        width: 65vw;
+      }
+      img.about-logo {
+        display: none;
+      }
+      h1.about-header {
+        color: #d32e2d;
+        margin: 0;
+        text-transform: uppercase;
+      }
+      p.about-copy {
+        font-size: 2rem;
+        line-height: 1.8em;
+        margin: 0;
+      }
+      img.about-img {
+        height: 50vh;
+        position: absolute;
+        right: 5vw;
+        top: 25vh;
+      }
+      div.page.issue {
+        background: #d32e2d;
+      }
+      div.issue-body {
+        margin-left: 5vw;
+        padding: 150px 0;
+        width: 65vw;
+      }
+      h1.issue-header,
+      h2.issue-header {
+        color: #fff;
+        margin: 0;
+        text-transform: uppercase;
+      }
+      p.issue-copy {
+        color: #fff;
+        font-size: 2rem;
+        line-height: 1.8em;
+        margin: 0;
+      }
+      p.issue-copy a {
+        color: #fff;
+      }
+      img.issue-img {
+        height: 50vh;
+        position: absolute;
+        right: 5vw;
+        top: 25vh;
+      }
+      @media print, screen and (max-width: 480px) {
+        div.page {
+          height: auto;
+        }
+        div.about-body {
+          margin: 0;
+          padding: 0 0.5rem;
+          position: static;
+          width: auto;
+        }
+        img.about-logo {
+          display: block;
+          height: auto;
+          margin: 1rem 0;
+          width: 100%;
+        }
+        h1.about-header {
+          display: none;
+        }
+        p.about-copy {
+          font-size: 1.5rem;
+        }
+        img.about-img {
+          display: none;
+        }
+        div.issue-body {
+          margin: 0;
+          padding: 0 0.5rem;
+          position: static;
+          width: auto;
+        }
+        img.issue-logo {
+          display: block;
+          height: auto;
+          margin: 1rem 0;
+          width: 100%;
+        }
+        h1.issue-header,
+        h2.issue-header {
+          margin-top: 2rem !important;
+        }
+        p.issue-copy {
+          font-size: 1.5rem;
+        }
+        img.issue-img {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page header">
+      <div class="header-container">
+        <div class="header-logo">&nbsp;</div>
+      </div>
+    </div>
+    <div class="page about">
+      <div class="about-body">
+        <img
+          class="about-logo"
+          alt="All That Is Left"
+          src="/assets/title-red.svg"
+        />
+        <h1 class="about-header">All That Is Left</h1>
+        <p class="about-copy">
+          A publication of leftist art and writing for a movement of solidarity,
+          released online by a nonsectarian group of collaborators.
+        </p>
+        <p class="about-copy">
+          <a href="/about">Read More &rarr;</a>
+        </p>
+      </div>
+      <img class="about-img" src="assets/book.svg" />
+    </div>
+    <div class="page issue">
+      <div class="issue-body">
+        <h1 class="issue-header">Issue 001, Q1 2018</h1>
+        <p class="issue-copy">
+          <a href="/issue/001.pdf">Download PDF &rarr;</a>
+        </p>
+        <h2 class="issue-header" style="margin-top: 150px">Read Online</h2>
+        <p class="issue-copy">
+          <a href="/issue/001/marxism">Marxism</a>
+          &ldquo;Marx’s ideas have resonated with millions across the world:
+          those who saw in our hazy future a better world...&rdquo;
+        </p>
+        <p class="issue-copy">
+          <a href="/issue/001/leninism">Leninism</a>
+          &ldquo;The theory of Leninism is at its most basic foundations, the
+          practical application of Marxism as interpreted by Lenin...&rdquo;
+        </p>
+        <p class="issue-copy">
+          <a href="/issue/001/mlm">Marxism-Leninism-Maoism</a>
+          &ldquo;Marxism-Leninism-Maoism is both a continuation and a rupture of
+          Marxism-Leninism...&rdquo;
+        </p>
+        <p class="issue-copy">
+          <a href="/issue/001/syndicalism">Syndicalism</a>
+          &ldquo;A sentiment of anti-authoritarianism born of a distaste for
+          corporatism and other modern manifestations of centralized capitalist
+          governments lends itself quite cleanly to the ideas of
+          anarchism...&rdquo;
+        </p>
+        <p class="issue-copy">
+          <a href="/issue/001/democratic-confederalism"
+            >Democratic Confederalism</a
+          >
+          &ldquo;Democratic Confederalism, also known as Apoism, is centered
+          around three pillars: democracy, ecology and female
+          emancipation...&rdquo;
+        </p>
+        <p class="issue-copy">
+          <a href="/issue/001/trotskyism">Trotskyism</a>
+          &ldquo;On August 21, 1940, the man known as Leon Trotsky lay dead on a
+          cot in a local hospital near his home in Mexico City...&rdquo;
+        </p>
+        <p class="issue-copy">
+          <a href="/issue/001/market-socialism">Market Socialism</a>
+          &ldquo;Yugoslavia was a socialist nation that arose from World War II.
+          It was unique in many ways. It had one of the largest militaries in
+          the world at its height, had relations with both the capitalist west
+          and socialist east, and had a unique system, Market
+          Socialism...&rdquo;
+        </p>
+        <p class="issue-copy">
+          <a href="/issue/001/democratic-socialism">Democratic Socialism</a>
+          &ldquo;There are a great multitude of misconceptions surrounding
+          democratic socialism and the people associated with that school of
+          thought. The term came into wider prominence amongst the general
+          public during the 2016 US Presidential primaries...&rdquo;
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
